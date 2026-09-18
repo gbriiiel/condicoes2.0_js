@@ -1,5 +1,10 @@
+/* HORA DO CLIENTE */
 var agr= new Date()
 var hora = agr.getHours()
+
+
+/* HORA DO SERVIDOR */
+var hora = 22
 console.log(`Agora são ${hora} horas.`)
 
 if(hora >= 6 && hora < 12) {
